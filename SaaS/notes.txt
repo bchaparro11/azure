@@ -1,0 +1,4 @@
+1. It'd be cloud apps (the abstraction is easier to the user):
+    1. Office 365
+    2. OneDrive
+    3. Skype

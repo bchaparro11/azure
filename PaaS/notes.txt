@@ -1,0 +1,21 @@
+1. This is usually software that I have to configure. SaaS is something that I don't have to configure I just use it.
+2. Examples of this in general terms:
+    1. Middleware
+    2. Development tools
+    3. Database server
+    4. More
+3. PaaS Computing:
+    1. Azure App Services. This includes:
+        1. Scaling features
+        2. CI/CD
+        3. Containers
+        4. Staging and Development environments
+        5. More
+4. PaaS Storage:
+    1. Managed Storage:
+        1. Azure SQL Database
+5. PaaS Networking:
+    1. Azure Front Door
+    2. Load Balancer
+    3. Firewall
+    4. Software applications that perform networking tasks
