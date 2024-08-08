@@ -1,0 +1,11 @@
+1. Not every region suppports Availability Zones
+2. Not every service supports Availability Zones
+3. I could create an availability architecture by choosing the right zones or regions
+4. There are three types of AZ services:
+    1. Zonal Services (I have to desing the availability trough the local zones)
+    2. Zone-Redundant Services (Azure designs the availability architecture for us in an specific zone)
+    3. Always Available Services (Same as previous one, but globally. Always are available everywhere. This are also called "Non-regional-services"). E.g.:
+        1. Azure Portal
+        2. Azure Active Directory
+        3. Azure Front Door
+5. Some services give you the choice between zonal and zone-redundant services.
