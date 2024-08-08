@@ -1,0 +1,7 @@
+1. It could be free in a lot of options 
+2.Types of this:
+    1. Functions
+    2. Containers apps
+    3. K8s
+    4. SQL Database
+    5. CosmosDB
