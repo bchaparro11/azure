@@ -1,0 +1,20 @@
+1. It's any service in azure
+2. We can create any service in azure trough:
+    1. Azure Portal
+    2. CLI
+    3. PowerShell
+    4. ARM Template
+    5. etc
+3. Resource group is a way to group resources
+    1. I could add from differente regions to a resource group, but it's recommended that the selected resources have a relationship
+    2. The permissions could be assigned at the resource group level
+    3. A resource from a group could access to a resource from another group. I can group them up but avoid to connect between each other
+4. Subscriptions are the billing unit in azure:
+    1. I could acquire more than one subscription and different roles
+    2. The types:
+        1. Free plan - I can only have one
+        2. Pay as you Go - billed to credit card
+        3. Enterprise Agreement - EA
+        4. Free credits - MSDN, Startup plans
+5. An Azure account could have more than one subscription
+6. It's possible to manage an entire company by only one subscription but it's recommended to split them up in departments and every department owns a subscription.
