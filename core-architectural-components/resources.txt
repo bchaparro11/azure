@@ -9,7 +9,7 @@
     1. I could add from differente regions to a resource group, but it's recommended that the selected resources have a relationship
     2. The permissions could be assigned at the resource group level
     3. A resource from a group could access to a resource from another group. I can group them up but avoid to connect between each other
-4. Subscriptions are the billing unit in azure:
+4. Subscriptions are the billing unit in azure and group Resource-groups:
     1. I could acquire more than one subscription and different roles
     2. The types:
         1. Free plan - I can only have one
@@ -18,3 +18,11 @@
         4. Free credits - MSDN, Startup plans
 5. An Azure account could have more than one subscription
 6. It's possible to manage an entire company by only one subscription but it's recommended to split them up in departments and every department owns a subscription.
+7. Managemente groups group subscriptions
+    1. One management group could have more than one different management groups
+    2. I could add certain features to a management group:
+        1. Azure policy/Blueprints
+        2. Add stuff to the subscriptions like:
+            1. Resource group
+            2. ARM Templates
+            3. etc
