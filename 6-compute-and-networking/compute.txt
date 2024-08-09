@@ -1,0 +1,15 @@
+1. Some compute types:
+    1. Virtual machines (VM) --> It's an IaaS. There are 700 options to chose
+    2. VM Scale Sets (VMSS): --> It's Elasticity
+        1. Scaling up --> Vertical Scaling
+        2. Scaling out --> Horizontal Scaling
+        3. We can scale based on:
+            1. Demand
+            2. Schedule
+            3. More
+        4. By default can handle up to 100 VMs. Could be configured to handle 1000 VMs. If we need more, we should add more scale sets.
+    3. App services (Web apps)
+    4. Azure container instances (ACI)
+    5. Azure container apps
+    6. Azure Kubernetes Service (AKS)
+    7. Azure Virtual Desktop
