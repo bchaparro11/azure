@@ -1,0 +1,9 @@
+1. Executes code in Cloud
+2. It's triggered
+3. It has a free tie:
+    1. One million executions per month free
+    2. Follows a serverless model
+    3. Usage examples:
+        1. A small piece of code that runs every day at 12am, and summarizes yesterday's data
+        2. A small piece of code that checks a blob container (to store large amounts of unstructured object data) fow new files, and does something every time it finds a new one
+        3. A small piece of code that runs every 6 hours, and retrieves the latest weather forecast from a publicly accessible weather API

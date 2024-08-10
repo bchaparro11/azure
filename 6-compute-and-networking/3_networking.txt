@@ -1,0 +1,15 @@
+1. This is an IaaS
+2. Sometimes called VNets (Virtual Networks)
+3. Two VMs in Azure are not allowed to talk to each other
+4. In azure, it's virtual because it's effectively just a database entry in a table that establishes the path between VM A and VM B
+5. It's IPv4 or IPv6
+6. I don't have to be stingy when assigning VNets because there's no shortage. There are millions of private IP adresses
+7. All virtual machines must belong to at least one subnet, using a Network Interface Card (NIC)
+8. Some VMs have more than one subnet
+9. VMs can optionally be assigned a public IP, which makes it eligible to be accesed from outside Azure (I need a firewall here).
+
+10. Network Security Group (NSG)
+    1. It's an access control list (ACL) that blocks the traffic inbound and outbound
+11. I can allow communication between different subnets on the same network through adding specific NSG rules
+12. No traffic passes the NSG filter unless an "ALLOW" rule matches
+13. Rules have priorities, and the highest priority rule that matches is the one that applies.
