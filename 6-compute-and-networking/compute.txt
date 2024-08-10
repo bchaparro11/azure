@@ -18,3 +18,5 @@
         2. Azure container apps
         3. Azure Kubernetes Service (AKS)
     5. Azure Virtual Desktop
+        1. To have an UI in cloud
+        2. I could access from celphones using iOS or Android by the application.
