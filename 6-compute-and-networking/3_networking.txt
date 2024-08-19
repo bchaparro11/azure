@@ -13,3 +13,23 @@
 11. I can allow communication between different subnets on the same network through adding specific NSG rules
 12. No traffic passes the NSG filter unless an "ALLOW" rule matches
 13. Rules have priorities, and the highest priority rule that matches is the one that applies.
+
+14. Peering -> To connect two VMs in different subnets
+15. Azure DNS -> To name the IPs locally and externally
+16. Azure VPN Gateway -> Allows communciation between:
+    1. Work station and network
+    2. Network and network
+
+    More things about VPN:
+        1. VPN encrypts the traffic between the two points
+        2. VPN Gateway requires its own subnet
+17. When working remotely I am using "point to site" (P2S)
+18. VPN Peering -> To connect two distant networks using VPN devices
+        1. This is called "site to site" (S2S) connection
+    
+    It serves to connect:
+        1. Entire office of computers to an Azure subnet
+        2. Office to office
+19. ExpressRoute
+        1. Increases the speed set by the VPN
+        2. Bypasses the public internet
