@@ -15,7 +15,7 @@
 13. Rules have priorities, and the highest priority rule that matches is the one that applies.
 
 14. Peering -> To connect two VMs in different subnets
-15. Azure DNS -> To name the IPs locally and externally
+15. Azure DNS -> To name the IPs locally inside Azure
 16. Azure VPN Gateway -> Allows communciation between:
     1. Work station and network
     2. Network and network
