@@ -1,0 +1,2 @@
+SSH Connection:
+ssh -i directory/pem-name.pem user@ip
