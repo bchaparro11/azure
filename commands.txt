@@ -1,2 +1,6 @@
 SSH Connection:
-ssh -i directory/pem-name.pem user@ip
+    ssh -i directory/pem-name.pem user@ip
+
+    Docs: https://learn.microsoft.com/en-us/azure/virtual-machines/linux-vm-connect?tabs=Linux
+    Notes:
+        - The USER and IP could be found at the Connect section
