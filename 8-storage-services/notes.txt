@@ -1,0 +1,23 @@
+1. It's a IaaS
+2. Types:
+    1. Azure Storage (General Purpose v2 or GPv2). Also called "Standard Storage"
+        1. Types:
+            1. Container. Also called "Container Blob Storage"
+            2. Files
+            3. Queue
+            4. Table
+        2. This is too cheap. Yet I can get more discounts if I use:
+            1. Cool
+            2. Cold
+            3. Archive
+        3. General Purpose. Not recommended for pretty high demand requests
+    2. Premium Storage Options
+        1. Used for pretty high demand request
+        2. It's not general purpose, uses quite specific infracstructure if compared to GPv2
+    3. High Performance
+        1. It's even faster than Premium Storage
+        2. Uses very specific infracstructure
+    4. Container (Blob) Storage
+    5. Disk Storage - For Virtual Hard Disks (VHDs)
+    6. Azure File Storage
+    7. Storage tiers
