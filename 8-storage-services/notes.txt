@@ -18,6 +18,22 @@
         1. It's even faster than Premium Storage
         2. Uses very specific infracstructure
     4. Container (Blob) Storage
+        1. Types can it save:
+            1. TXT
+            2. PDF
+            3. ZIP
+            4. CSV
+            5. XLSX
+            6. JPG
+            7. AVI
+            8. Whatever
+        2. Saved "unstructured data"
+        3. One pays for what they use
+        4. Access Tiers:
+            1. Hot (default one)
+            2. Cool
+            3. Cold
+            4. Archive
     5. Disk Storage - For Virtual Hard Disks (VHDs)
     6. Azure File Storage
     7. Storage tiers
