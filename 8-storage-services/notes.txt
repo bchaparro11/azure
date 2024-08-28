@@ -37,3 +37,4 @@
     5. Disk Storage - For Virtual Hard Disks (VHDs)
     6. Azure File Storage
     7. Storage tiers
+3. Data is encrypted by default
