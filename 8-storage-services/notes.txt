@@ -38,3 +38,6 @@
     6. Azure File Storage
     7. Storage tiers
 3. Data is encrypted by default
+4. I am able to copy all information saved in containers in one storage account to be pasted in another storage account. I could do it trough AZCOPY.
+    1. It is not a good idea to download all the data from a group of containers from one storage account and then upload it to another storage account. It's going to be expensive because of bandwith concern, and it'll take too much time.
+    2. It's possible download AZCOPY and install it in my machine or use Cloud Shell

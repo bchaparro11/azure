@@ -1,0 +1,3 @@
+Powershell
+    azcopy -? ---> To verify if it's installed
+    azcopy copy 'link_of_source_url_of_data' 'link_of_destination_container' ---> The first one link is the link of the data to be copied, the second one is the link of the container where I want to copy my file
