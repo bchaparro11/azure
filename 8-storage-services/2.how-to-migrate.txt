@@ -1,0 +1,9 @@
+1. Azure Migrate
+    1. This is the tool used by microsoft to migrate:
+        1. Servers
+        2. Databases
+        3. Etc.
+    2. It discovers the resources named previously automatically
+    3. After discovering services it gives advices of:
+        1. What could be migrated
+        2. What should be upgraded before migrated
