@@ -1,0 +1,7 @@
+1. A physical object is the solution given by Azure to migrate huge amount of data
+    1. It consists in receiving by azure one of the following objects:
+        1. Data Box Disk --> 8 TB capacity
+        2. Data Box --> 100 TB capacity
+        3. Data Box Heavy --> 1 PB
+    2. The second step is to upload our data to those devices and sending back this devices to Azure
+    3. The third and last step is to be aware of when azure uploads our data to the console. In addition, it's going to be encrypted and wiped-clean

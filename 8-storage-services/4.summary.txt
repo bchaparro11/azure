@@ -1,0 +1,4 @@
+1. Azure Storage Account is for giving acces to Azure storage resources
+2. Azure Storage Explorer is for uploading, downloading, and moving files to and from Azure trough the UI
+3. AzCopy is for doing the same as 2 but using the Cloud Shell insteaf of UI
+4. Azure File Sync is for synchronizing data between on-prem and cloud nodes in Azure
