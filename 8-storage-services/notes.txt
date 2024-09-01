@@ -17,7 +17,7 @@
     3. High Performance
         1. It's even faster than Premium Storage
         2. Uses very specific infracstructure
-    4. Container (Blob) Storage
+    4. Container (Blob) Storage --> This is the homologous service to S3 in AWS
         1. Types can it save:
             1. TXT
             2. PDF
@@ -36,7 +36,15 @@
             4. Archive
     5. Disk Storage - For Virtual Hard Disks (VHDs)
     6. Azure File Storage
+        1. True hierarchical structure with folders
+        2. Supports SMB, or NFS (Linux)
+        3. Purpose:
+            1. Replaces on-prem file servers
+            2. Adds redundancy, data recovery, failover benefits
     7. Storage tiers
+        1. Hybrid option: on-prem files with cloud option
+        2. This is called "Azure File Sync"
+        3. The word "tiers" here come from "Cloud tiering". It means there are going to be some chunks of data saved locally, and other of them saved in the cloud.
 3. Data is encrypted by default
 4. I am able to copy all information saved in containers in one storage account to be pasted in another storage account. I could do it trough AZCOPY.
     1. It is not a good idea to download all the data from a group of containers from one storage account and then upload it to another storage account. It's going to be expensive because of bandwith concern, and it'll take too much time.
