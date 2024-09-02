@@ -1,0 +1,13 @@
+1. The term of identity is a concern given to:
+    1. People
+    2. Applications
+    3. Devices
+2. Ways to approve access to certain resources:
+    1. Password
+    2. Secret Key
+    3. Certificate
+3. Microsoft uses something called Active Directory to verify the identities. The homolgous in cloud is called:
+    1. Active Directory --> Microsoft Entra ID (it was called in the past as Azure Active Directory, they changed it)
+4. Active Directory and Microsoft Entra are not direct replacements of each other. They are similar but not equal
+5. On-prem Active Directory uses protocols (like LDAP or Kerberos) that are not going to work over the internet
+6. Microsoft Entra uses protocols, like SAML and Oauth, that do work over the internet
