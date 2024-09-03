@@ -18,3 +18,7 @@
     2. Repeatedly logout
 9. Local Active Directory used are gonna be synchronized seemlessly with Entra ID. Users are gonna be updated or deleted at once if it's done in any location
 10. I could synchronize Entra ID with any other service in azure
+11. Ways to authenticate these days:
+    1. MFA
+    2. Thumbprint identification
+    3. Face recognition
