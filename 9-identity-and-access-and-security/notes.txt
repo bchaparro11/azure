@@ -11,3 +11,10 @@
 4. Active Directory and Microsoft Entra are not direct replacements of each other. They are similar but not equal
 5. On-prem Active Directory uses protocols (like LDAP or Kerberos) that are not going to work over the internet
 6. Microsoft Entra uses protocols, like SAML and Oauth, that do work over the internet
+
+7. I can login to Entra ID using another platform like Facebook, for instance.
+8. Entra ID uses AI to check "login patterns" in order to prevent any kind of threats. Suspicious patterns like:
+    1. Repeatedly login
+    2. Repeatedly logout
+9. Local Active Directory used are gonna be synchronized seemlessly with Entra ID. Users are gonna be updated or deleted at once if it's done in any location
+10. I could synchronize Entra ID with any other service in azure
