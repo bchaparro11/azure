@@ -19,6 +19,23 @@
 9. Local Active Directory used are gonna be synchronized seemlessly with Entra ID. Users are gonna be updated or deleted at once if it's done in any location
 10. I could synchronize Entra ID with any other service in azure
 11. Ways to authenticate these days:
-    1. MFA
+    1. MFA --> We don't have to pay for using this. It's a free feature in Azure
+        1. Factors (selected way to use MFA) that can be used in MFA:
+            1. Microsoft Authentication App
+            2. Authenticator Lite (in Outlook)
+            3. Windows Hello for Business --> This is secure because it's carved in the hardware of our machine. So, we must have access physically to our machine to use this factor.
+            4. FIDO2 security key
+            5. OATH hardware token (in preview)
+            6. OATH software token --> This is the one that you installed in your phone. An application different to Microsoft Authentication App
+            7. SMS
+            8. Voice call
     2. Thumbprint identification
     3. Face recognition
+
+12. Entra ID Conditional Access
+    1. It's a service to verify the (to measure the danger of a logged in):
+        1. Location
+        2. Device
+        3. Measuring the range of time passed since a last logged in to Entra ID
+        4. More on
+    2. It's an additional service that has to be paid to be used
