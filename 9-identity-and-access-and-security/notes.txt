@@ -39,3 +39,10 @@
         3. Measuring the range of time passed since a last logged in to Entra ID
         4. More on
     2. It's an additional service that has to be paid to be used
+
+13. Passwordless authentication
+    1. To authenticate in Azure without using a password. The ways to do it are:
+        1. To draw some patterns in our cellphone
+        2. To type a PIN
+        3. Biometric recognition (face, iris, fingerprint). --> This isn't saved by Azure because I have to save this biometric information in my cellphone, and my cellphone is the responsible of the recognition process
+        4. Auto-lock when I'm away of my devices (via Bluetooh)
