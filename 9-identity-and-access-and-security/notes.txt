@@ -46,3 +46,11 @@
         2. To type a PIN
         3. Biometric recognition (face, iris, fingerprint). --> This isn't saved by Azure because I have to save this biometric information in my cellphone, and my cellphone is the responsible of the recognition process
         4. Auto-lock when I'm away of my devices (via Bluetooh)
+
+14. Role-Based Access Control (RBAC) is the preffered tool to handle authorization in Azure
+    1. I can create built-in and custom roles
+    2. It's better not to give specific permissions to an isolated users
+    3. There are three basic roles:
+        1. Reader
+        2. Contributor (This is an admin role that can NOT make another an admin)
+        3. Owner (This is an admin role that CAN make another an admin)
