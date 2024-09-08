@@ -54,3 +54,31 @@
         1. Reader
         2. Contributor (This is an admin role that can NOT make another an admin)
         3. Owner (This is an admin role that CAN make another an admin)
+
+15. Some principles in security:
+    1. Least Privilege Access
+    2. Just-in-time (JIT) --> You have access just for an amount of time enough to do your task
+    3. Just-enough-access (JEA)
+    4. I have to implement security even inside the company, there could be an immpostor among us. Security approaches such as:
+        1. Encryption --> Encrypted HTTPS channel, for instance
+        2. Segmentation
+        3. Threat detection --> Using AI to detect unsual behavior, for instance
+    5. Ways to secure certain parts of our system:
+        1. In devices: ensure compliance (e.g. every computer used by the employees should have certain software and version installed) and health status (e.g. versions of software or hardware used)
+        2. In applications: appropiate in-app permissions, monitor user actions
+        3. In data: data-driven protection, encrypt and restrict access
+        4. In infrastructure: robust monitoring to detect attacks, block and flag risky behavior
+        5. In network: encrypt all communications in transit
+
+16. Places in Azure where I have to take care of their security (MORE (SECURITY) IS BETTER WHEN IT COMES TO DEFENSE):
+    1. Data
+    2. Application
+    3. Compute
+    4. Network
+    5. Perimeter
+    6. Indentity & Access
+    7. Physical
+
+17. "Microsoft defender for Cloud" is a service given by AZ that helps us secure all the services I can use in AZ. 
+    1. The trade-off here is the cost, because we have to pay for every service that this tool is going to take care of. It is not as the other services that we just have to pay for the use of the service itself (Microsoft defender for Cloud) and that's all.
+    2. There are different ways to choose to pay for the services to secure
