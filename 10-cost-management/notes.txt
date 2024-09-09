@@ -1,0 +1,22 @@
+1. Factors that affect cost:
+    1. Time
+    2. Consumption (Storage, Compute, Bandwidth)
+    3. Service Tier:
+        1. Basic
+        2. Standard
+        3. Premium
+    4. Computing Power (vCPUs/RAM/CPU type)
+    5. Software Licenses
+    6. Bandwith (Egress from Azure)
+    7. Bandwith (Between Azure Regions)
+    8. IP Addresses
+    9. Reservations (It means to reserve services without using them)
+    10. Per transaction
+2. Things that are free:
+    1. Ingress bandwith is free
+    2. First 5 GB outbound is free
+    3. There are free and cheap options for many things (i.e. Free distros of Linux and paid distros of Linux)
+3. Caveats:
+    1. There are DEV software licenses for some things (like SQL server)
+    2. There usually four or five ways to implement a technique (with tradeoffs for SLA and latency)
+    3. Many services have multiple pricing options (monthly or consumption)
