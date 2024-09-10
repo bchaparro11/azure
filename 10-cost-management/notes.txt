@@ -20,3 +20,8 @@
     1. There are DEV software licenses for some things (like SQL server)
     2. There usually four or five ways to implement a technique (with tradeoffs for SLA and latency)
     3. Many services have multiple pricing options (monthly or consumption)
+4. It's impossible to know exactly how much something is going to cost, but we can have a certainty of the value
+
+5. There are two calculators in Azure:
+    1. The one used to calculate how much the costs will be using Azure Cloud --> https://azure.microsoft.com/en-us/pricing/calculator/
+    2. The one used to calculate how much the costs will be managing everything on-prem way --> https://azure.microsoft.com/en-us/pricing/tco/calculator/
