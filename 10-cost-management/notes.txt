@@ -25,3 +25,9 @@
 5. There are two calculators in Azure:
     1. The one used to calculate how much the costs will be using Azure Cloud --> https://azure.microsoft.com/en-us/pricing/calculator/
     2. The one used to calculate how much the costs will be managing everything on-prem way --> https://azure.microsoft.com/en-us/pricing/tco/calculator/
+
+6. Azure Cost Management:
+    1. The more I spend the more information I find on Azure Cost Management Dashboard
+    2. I could set a budget to stop any unexpected increase
+    3. I could schedule reports
+    4. I could use resource tags to group to different client accounts
