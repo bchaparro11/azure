@@ -1,0 +1,21 @@
+1. Governance groups:
+    1. Executive
+    2. Security
+    3. Legal
+    4. So on
+2. The following positions are the ones that take the policies stated as "governance" rules:
+    1. Board of Directors
+    2. CEO
+    3. SVP of Technology
+    4. Director of Development
+    5. IT Security Comittee
+    6. Architecture Review
+    7. So on
+3. Governance tools:
+    1. Template Specs
+    2. Deployment Stacks
+    3. Azure Policy
+    4. Resource Locks
+    5. Microsoft Purview (data governance) --> New tool
+    6. Azure Blueprint --> It'll be retired
+    7. RBAC
