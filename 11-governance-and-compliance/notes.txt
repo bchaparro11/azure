@@ -19,3 +19,11 @@
     5. Microsoft Purview (data governance) --> New tool
     6. Azure Blueprint --> It'll be retired
     7. RBAC
+4. Examples of Azure Policies:
+    1. Require SQL Server 12.0
+    2. Allowed Storage Account SKUs
+    3. Allowed deployment locations
+    4. Allowed VM SKUs
+    5. Automatically apply tagging
+    6. Not allowed resource types
+5. We could create a custom policy using JSON
