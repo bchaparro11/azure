@@ -27,3 +27,35 @@
     5. Automatically apply tagging
     6. Not allowed resource types
 5. We could create a custom policy using JSON
+6. There are just two types of Resource Locks:
+    1. Read Only
+    2. Can Not Delete:
+        1. You can make changes, but can't delete
+    3. You can use RBAC to implement this technique of Governance and Compliance too
+    4. You can find it in a resource page, then Settings, then Locks
+7. Microsoft Purview tools:
+    1. Auditing
+    2. Communication Compliance
+        1. It helps us to track the behavior of our employees when they are involved in, for example:
+            1. Sensitive or confidential information
+            2. Harassing or threatening language
+            3. Sharing of adult content
+        2. We can have a dashboard where is going to be shown the people aren't obeying the rules
+    3. Data Map and Data Catalog
+    4. eDiscovery
+    5. Information Protection
+        1. We can have tools that help us to (Powered by an intelligent platform):
+            1. Know your data
+            2. Protect your data
+            3. Prevent data loss
+            4. Gover your data
+        2. Through this we could monitor application like Microsoft Teams Chat to verify if a person are sharing sensitive information
+    6. Insider Risk Management
+        1. Through this we could monitor which employees are:
+            1. Using prohibited sites in the browsers
+            2. Deactivating antivirus
+            4. Sharing patient data
+            3. So on
+    7. Data Lifecycle Management
+    8. Data Loss Prevention
+    9. Compliance Manager
