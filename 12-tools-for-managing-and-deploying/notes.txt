@@ -1,0 +1,3 @@
+1. We can download Powershell for Linux too, even for iOS
+2. We have to install az library to be used by Powershell
+3. We can install the az CLI in bash also

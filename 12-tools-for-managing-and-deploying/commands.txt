@@ -1,0 +1,4 @@
+az vm list
+Get-AzStorage --> To see the commands that have this root
+Get-AzStorageAccount --> To see the storage accounts
+Get-Module -Name Az -ListAvailable --> To see if the Az CLI is installed in PowerShell
