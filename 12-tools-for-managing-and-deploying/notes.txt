@@ -2,4 +2,27 @@
 2. We have to install az library to be used by Powershell
 3. We can install the az CLI in bash also
 4. Azure Arc:
-    1. Helps us manage the infrastructered outside the Cloud console
+    1. Helps us manage the infrastructere outside the Cloud console
+5. Infrastructure stuff:
+    1. All the servers
+    2. Storage
+    3. Database settings
+    4. Network settings
+    5. Firewalls
+    6. Load balancers
+    7. etc
+6. IaC Options (This helps us to maintain our environment):
+    1. ARM Templates (JSON)
+    2. Azure Bicep (Abstraction of ARM Templates)
+    3. Terraform (External tool)
+    4. Chef, Puppet (External tool)
+    5. Powershell Scripts (Bash shell scripts too, for instance)
+    6. Other type of code --> Any other programming language that interacts with Azure
+7. ARM Templates (stands for Azure Resource Manager):
+    1. The following tools runs behind the scenes ARM. Then ARM deploys all the resources needed such as Data Store, Web App, Virtual Machine, Service Management, and so on:
+        1. Azure portal
+        2. Azure Powershell
+        3. Azure CLI
+        4. REST clients
+        5. SDKs
+        6. Authentication
