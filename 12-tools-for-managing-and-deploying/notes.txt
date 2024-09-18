@@ -26,3 +26,11 @@
         4. REST clients
         5. SDKs
         6. Authentication
+8. ARM is a combination of:
+    1. JSON
+    2. Parameters (also written in JSON)
+9. I could add an ARM to a Resource Group. That resource group must be alive so that the ARM is gonna stick around:
+    1. This could be made trough the wizard given by Azure.
+    2. This process is called "Add to library".
+    3. It's gonna be stored in a place called "Azure specs". Not to get confused with the part called "Templates", that's different.
+10. I cannot use CMD to run Infrastructure as Code Azure tools. It's possible trough Bash and PowerShell.
