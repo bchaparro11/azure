@@ -1,0 +1,2 @@
+1. Azure advisor gives recommendations based on one's subscription:
+    1. Security recommendations aren't necessarily related to getting a hack attack. Could it be related to some libraries that need to be upgraded.
