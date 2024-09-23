@@ -1,2 +1,12 @@
 1. Azure advisor gives recommendations based on one's subscription:
     1. Security recommendations aren't necessarily related to getting a hack attack. Could it be related to some libraries that need to be upgraded.
+2. Service Health is another dashboard given by Azure that provides issues in every region they manage. It's not about to alert issues of the services is related to alert about the problems in the regions:
+    1. I could select the regions that I want to get alerts of.
+3. Azure Monitor is the service that's going to store the stats coming from the any other service (From the service itself is also possible to check the logs. It's going to look the same but we are gonna just be able to see the logs of one service not the whole set of services as you can in Azure Monitor):
+    1. When launching a service in Azure, for example, a web app, there's a place where we could accept or deny to track logs from he service. When accepting it, the logs are gonna be stored in Azure Monitor.
+    2. We can see the stats in two different ways:
+        1. Logs section:
+            1. We use "Kusto Query Language (KQL)" to query the logs (It's similar to SQL but it's not equal).
+            2. The UI is similar to the one found in Microsoft SQL Server workbench.
+        2. Metrics section:
+            1. This is going to show us graphs.
