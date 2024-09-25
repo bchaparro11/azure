@@ -20,3 +20,9 @@
     5. Azure Virtual Desktop
         1. To have an UI in cloud
         2. I could access from celphones using iOS or Android by the application.
+2. Availability Sets:
+    1. A way to allocate a group of VMs to keep them isolated from each other.
+3. Proximity Group:
+    1. To allocate a group of VMs to keep them grouped one to another (the same rack).
+    3. The benefit it has is to obtain the fastest inter-server communication.
+    4. The trade-off this way has is to take the risk of availability because the rack could undergo an outage, so there's no replication to keep a high availability approach.
