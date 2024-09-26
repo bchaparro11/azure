@@ -1,5 +1,6 @@
-1. It's a IaaS
-2. Types:
+1. A storage account provides a unique namespace for your Azure Storage data that's accessible from anywhere in the world over HTTP or HTTPS. Data in this account is secure, highly available, durable, and massively scalable.
+2. It's a IaaS
+3. Types:
     1. Azure Storage (General Purpose v2 or GPv2). Also called "Standard Storage"
         1. Types:
             1. Container. Also called "Container Blob Storage"
@@ -45,7 +46,7 @@
         1. Hybrid option: on-prem files with cloud option
         2. This is called "Azure File Sync"
         3. The word "tiers" here come from "Cloud tiering". It means there are going to be some chunks of data saved locally, and other of them saved in the cloud.
-3. Data is encrypted by default
-4. I am able to copy all information saved in containers in one storage account to be pasted in another storage account. I could do it trough AZCOPY.
+4. Data is encrypted by default
+5. I am able to copy all information saved in containers in one storage account to be pasted in another storage account. I could do it trough AZCOPY.
     1. It is not a good idea to download all the data from a group of containers from one storage account and then upload it to another storage account. It's going to be expensive because of bandwith concern, and it'll take too much time.
     2. It's possible download AZCOPY and install it in my machine or use Cloud Shell
