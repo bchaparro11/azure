@@ -1,0 +1,16 @@
+To connect to azure via bash:
+az login
+
+To create a kubernetes cluster in az (I need a subscription and a resource group to create a k8s cluster in az):
+az aks create \
+    --resource-group rsrc-grp-1 \
+    --name contract-analyzer-cluster \
+    --node-count 1 \
+    --node-vm-size Standard_B2s \
+    --enable-cluster-autoscaler \
+    --min-count 1 \
+    --max-count 1 \
+    --location eastus
+
+To log in to the k8s cluster
+az aks get-credentials --resource-group rsrc-grp-1 --name contract-analyzer-cluster --overwrite-existing
