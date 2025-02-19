@@ -1,0 +1,50 @@
+#This is to order everything
+az storage blob list \
+    --container-name containerName \
+    --account-name  accountName \
+    --prefix ingestion/cpaas/adr/2025-02-18/ \
+    --query "sort_by([].{name:name, lastModified:properties.lastModified}, &lastModified)[::-1]" \
+    --output table
+
+#To get the last 20
+az storage blob list \
+    --container-name containerName \
+    --account-name accountName \
+    --prefix ingestion/cpaas/adr/2025-02-18/ \
+    --query  "[?contains(name, 'cpaas01q.den02.intelepeer.net')].name"
+    --output table
+
+#To get the name and also the creationTime
+az storage blob list \
+    --container-name containerName \
+    --account-name accountName \
+    --prefix ingestion/cpaas/adr/2025-02-18/ \
+    --query "[?contains(name, 'cpaas01q.den02.intelepeer.net')].[name, properties.creationTime]" \
+    --output table
+
+
+#To sort then by creationTime
+az storage blob list \
+    --container-name containerName \
+    --account-name accountName \
+    --query "sort_by([?contains(name, 'cpaas01q.den02.intelepeer.net')], &properties.creationTime)[::-1].[name, properties.creationTime]" \
+    --prefix ingestion/cpaas/adr/2025-02-18/ \
+    --output table
+
+#To get the last 10 rows
+az storage blob list \
+    --container-name containerName \
+    --account-name accountName \
+    --query "sort_by([?contains(name, 'cpaas01q.den02.intelepeer.net')], &properties.creationTime)[::-1].[name, properties.creationTime]" \
+    --prefix ingestion/cpaas/adr/2025-02-18/ \
+    --output table | tail -n 10
+
+#To get the first 10 rows
+az storage blob list \
+    --container-name containerName \
+    --account-name accountName \
+    --query "sort_by([?contains(name, 'cpaas01q.den02.intelepeer.net')], &properties.creationTime)[::-1].[name, properties.creationTime]" \
+    --prefix ingestion/cpaas/adr/2025-02-18/ \
+    --output table | head -n 10
+
+
