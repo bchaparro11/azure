@@ -1,0 +1,25 @@
+1. Arrangement of Azure Geographically
+
+    Azure Regions
+        Azure Zones
+
+2. There are regions that don't have more than one zone. It varies by region.
+
+3. The most of the services offered in Azure are IaaS and PaaS. Only a few are SaaS. SaaS is only using the software and not configuring it. So something pretty automatized like CosmosDB or Azure SQL or SQL Databases are PaaS because I have to configure it to give services to the people. Some hints to know if a service is IaaS, PaaS or SaaS:
+    
+    1. IaaS: I have to care about the OS and everything from that point on.
+    2. PaaS: I don't have to care about the OS, but I still have to care about the configuration of the services. Things like:
+        1. RUs in CosmosDB
+        2. Whitelisting IPs
+        3. Stuff like that
+    3. SaaS: I only have to use it.
+
+4. The pyramid of the resposibility of the services in Databases terms from up to down:
+
+    1. Data - SaaS, PaaS and IaaS (I added the word SaaS to be strictically correct about th differences, but at the end is PaaS and IaaS only because there's no service offered by Azure that is SaaS where I don't care about the Database Configuration and I only care about the data)
+    2. Database configuration - PaaS and IaaS
+    3. Database Software - PaaS and IaaS
+    4. OS - PaaS and IaaS
+    5. Virtualization - IaaS
+    6. Physical hardware - IaaS
+    7. Networking - IaaS
